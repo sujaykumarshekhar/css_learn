@@ -1,0 +1,21 @@
+.item{
+    border: 1px solid red;
+    display: inline-block;
+    height:100px ;
+    width: 100px;
+
+}
+.container{
+    border: 1px solid blue;
+    display: flex;
+}
+.items{
+    display: block;
+    border: 1px solid red;
+    height:100px ;
+    width: 100px;
+
+}
+.containers{
+    border: 1px solid  blue;
+}

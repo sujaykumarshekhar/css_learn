@@ -1,0 +1,64 @@
+
+
+
+.intro{
+   
+    float: left;
+    width: 80%;
+}
+
+
+.heading{
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: deepskyblue;
+    margin: 0.6rem;
+
+}
+
+.introduction{
+    
+    font-family: "Ink Free Regular";
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0.6rem;
+}
+
+.location{
+    
+    font-style: italic;
+    margin: 0.6rem;
+    
+}
+
+.description_heading{
+    clear: both;
+    margin-top: 20000rem;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: black;
+    font-family:serif ;
+    color: darkkhaki;
+}
+.descrioption_details{
+    margin-top: 10px;
+    font-size: 19px;
+    font-weight: bold;
+    width: 50%;
+    float: left;
+}
+.skill_know{
+    float: left;
+    width: 50%;
+}
+body{
+    background-color: aquamarine;
+    margin: 0px;
+}
+.image{
+    width: 20%;
+    height: 20%;
+    float: left;
+}

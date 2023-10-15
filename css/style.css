@@ -1,0 +1,32 @@
+h1{
+    color: green; 
+    text-align: center;
+}
+#heading{
+    color: blue;
+}
+.heading{
+    color: red;
+}
+
+@font-face {
+    font-family: Robotoslab;
+    src: url("font/RobotoSlab-VariableFont_wght.ttf");
+}
+.box{
+    font-family: "Roboto slab,Ink Free Regular";
+    font-size: 34px;
+    font-weight: bold;
+    color: darkgreen;
+    background-color: aquamarine;
+    border-color: darkgreen;
+    border-style: solid;
+    border-width: 3px;
+    width:200px ;
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+
+
+}

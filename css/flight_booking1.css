@@ -1,0 +1,67 @@
+body{
+    margin: 0px;
+    background-color: skyblue;
+}
+
+.header{
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 2fr 1.4fr 1.4fr 1.4fr 1.4fr 5fr;
+    grid-gap: 12px;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+    color: aliceblue;
+    margin: 12px;
+}
+.buttons{
+    color: aqua;
+    padding: 20px;
+}
+.image{
+    width: 25%;
+    height: 25%;
+    border-radius: 12px;
+}
+.search-box{
+    background-color: blue;
+    padding: 12px;
+    margin-right: 50%;
+    padding-bottom: 18px;
+}
+.search-bar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 12px;
+
+
+
+}
+.schedule{
+    color: aqua;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 16px;
+}
+.ticket-column{
+    background-color: blue;
+    margin-right: 70%;
+    margin-left: 3rem;
+    border-radius: 12px;
+    
+
+}
+.tickets{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 12px;
+}
+.timing{
+    padding: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    color: aqua;
+
+    
+}

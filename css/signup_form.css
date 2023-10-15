@@ -1,0 +1,116 @@
+body{
+    margin: 0px;
+    color: #fbecec;
+
+}
+
+.header{
+    background-color: #440047;
+    border-bottom: 0.5rem solid #91d18b;
+    display: grid;
+    grid-template-columns: 10fr 1fr 1fr;
+}
+.logo{
+    color: #fbecec;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1.5rem;
+    padding-left: 0.5rem;
+}
+
+.login{
+    color: #fbecec;
+    font-size:1rem ;
+    font-weight: bold;
+    padding: 2rem;
+
+}
+.login:hover{
+    color: #e11d74;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.signup{
+    width: 36rem;
+    border-radius: 0.4rem;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0.1rem solid green;
+    display: grid;
+    
+    
+}
+
+.containers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+  
+}
+h2{
+    margin-top: 0px;
+    color: #e11d74;
+    margin-left: 0.8rem;
+    margin-bottom: 0.2px;
+    margin-top: 0.2rem;
+    
+}
+.container{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #e11d74;
+     
+}
+
+label{
+    display: block;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+.label-radio{
+    display: inline;
+}
+
+input[type="text"],input[type="password"],select,textarea{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    border-bottom: 0.2rem solid #91d18b;
+    outline: none;
+
+
+}
+input[type="text"]:focus,input[type="password"]:focus,select:focus,textarea:focus{
+   
+    border-bottom: 0.2rem solid #e11d74;
+
+
+
+}
+
+.footer{
+    color: #fbecec;
+    font-weight: bold;
+    background-color: #440047;
+    clear: both;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 0px;
+
+}
+input[type="submit"]{
+    background-color: #e11d74;
+    color: #fbecec;
+    font-weight: bold;
+    padding: 1rem;
+    margin: 1rem;
+    cursor: pointer;
+
+}

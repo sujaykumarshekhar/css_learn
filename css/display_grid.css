@@ -1,0 +1,17 @@
+.container{
+    border: 3px solid blue;
+    display: grid;
+    grid-template-columns: 25fr 50fr 25fr;
+    padding: 1rem;
+    grid-gap: 1rem;
+    
+
+
+}
+
+.item{
+    border: 1px solid red;
+    height: 100px;
+   
+    display: flex;
+}

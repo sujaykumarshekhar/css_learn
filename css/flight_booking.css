@@ -1,0 +1,47 @@
+.head{
+    background-color:rgb(10, 10, 75) ;
+    margin-top: 0px;
+
+}
+.headline{
+    margin: 12px;
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(228, 223, 223);
+}
+
+.headline_bar{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 12px;
+    margin-bottom: 20px;
+    color: rgb(228, 223, 223);
+    text-decoration: underline;
+    text-decoration-color: aqua;
+}
+.image{
+    width: 30%;
+    height: 30%;
+}
+
+.search_row{
+    margin: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color:rgb(47, 111, 163) ;
+    margin-left: 0px;
+
+
+}
+
+.flight_schedule{
+    margin: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 0px;
+    color:rgb(47, 111, 163) ;
+
+}
+body{
+    background-color: skyblue;
+}

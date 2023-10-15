@@ -1,0 +1,59 @@
+.article-image{
+    width: 20%;
+    margin-left: 10px;
+    
+    float: right;
+}
+
+.article{
+    width: 50%;
+    margin: auto;
+    border: 1px solid greenyellow;
+    border-radius: 12px;
+    padding: 12px;
+    background-color: darkseagreen;
+
+
+}
+
+@media screen and (max-width: 414px) {
+    .article{
+        width: 100%;
+        padding: 0px;
+    }    
+    .article-image{
+        width: 100%;
+    }
+}
+
+.heading{
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: aqua;
+}
+.Intro{
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(24, 25, 31);
+    margin-top: 10px ;
+    margin-bottom: 10px;
+}
+.passege1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+
+    
+}
+.passege2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+
+
+}
+*{
+    border: 1px solid blue;
+
+}
